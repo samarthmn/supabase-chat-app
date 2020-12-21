@@ -1,0 +1,5 @@
+{
+  "projects": {
+    "default": "supabase-chat-app"
+  }
+}

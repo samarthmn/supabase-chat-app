@@ -1,0 +1,56 @@
+{
+  "name": "supabase-chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.1.2",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.9.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.6",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamarthMN/supabase-chat-app.git"
+  },
+  "keywords": [
+    "supabase",
+    "chat-app",
+    "reactjs"
+  ],
+  "author": "Samarth MN <samarth.m.n@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamarthMN/supabase-chat-app/issues"
+  },
+  "homepage": "https://github.com/SamarthMN/supabase-chat-app#readme",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
