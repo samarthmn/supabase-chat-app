@@ -1,5 +1,6 @@
-import { Layout } from "antd";
 import { useState } from "react";
+import { Layout } from "antd";
+import { GithubOutlined } from "@ant-design/icons";
 import { User } from "@supabase/supabase-js";
 
 import LoginModal from "./LoginModal";
@@ -31,6 +32,15 @@ const Header = ({ user }: { user: User | null }) => {
       >
         <div style={{ color: "white", fontSize: "1.5rem", cursor: "pointer" }}>
           Chat App Using SupaBase
+          <GithubOutlined
+            style={{ cursor: "pointer", padding: "0 .5em" }}
+            onClick={() =>
+              window.open(
+                "https://github.com/SamarthMN/supabase-chat-app",
+                "_blank"
+              )
+            }
+          />
         </div>
         <div style={{ display: "flex" }}>
           {!user ? (

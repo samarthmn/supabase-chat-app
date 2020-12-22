@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Col, Layout, List, Row, Form, Input } from "antd";
+import { Layout } from "antd";
 import { supabaseClient } from "./service/supabase";
 import { User } from "@supabase/supabase-js";
 import useAuth from "./hooks/useAuth";
