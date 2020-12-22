@@ -8,7 +8,7 @@ const useAuth = () => {
     supabaseClient.auth.signUp({ email, password });
 
   const getSession = async () => {
-    const { data: session } = await supabaseClient.auth.getSessionFromUrl();
+    const session = supabaseClient.auth.session();
     return session;
   };
   return {
