@@ -1,3 +1,4 @@
+![Deploy to Firebase Hosting on merge](https://github.com/SamarthMN/supabase-chat-app/workflows/Deploy%20to%20Firebase%20Hosting%20on%20merge/badge.svg)
 # supabase-chat-app
 Real-time chat app using SupaBase as back-end and ReactJS as front-end. [Demo Website](https://supabase-chat-app.web.app/)
 
