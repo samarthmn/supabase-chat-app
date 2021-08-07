@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a6d73e33-b7a5-4af4-8fa8-5ad093592951/deploy-status)](https://app.netlify.com/sites/supabase-chat-app/deploys)
+
 # Real time chat
 
 Real-time chat app using SupaBase as back-end and ReactJS as front-end.
@@ -18,7 +20,7 @@ npm run start
 cp .env.example .env
 ```
 
-###### Update `REACT_APP_SUPABASE_URL` and `REACT_APP_SUPABASE_PUBLIC_KEY` in the `.env` file
+##### Update `REACT_APP_SUPABASE_URL` and `REACT_APP_SUPABASE_PUBLIC_KEY` in the `.env` file
 
 ### Run the project
 
