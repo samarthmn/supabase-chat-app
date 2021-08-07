@@ -16,6 +16,7 @@ const useMessage = () => {
 
   useEffect(() => {
     supabaseClient.from("messages").on("INSERT", handleInsert).subscribe();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [messages]);
 
   useEffect(() => {

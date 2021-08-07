@@ -1,11 +1,12 @@
 {
   "name": "supabase-chat-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Real-time chat app using SupaBase as back-end and ReactJS as front-end",
   "scripts": {
     "start": "react-scripts start",
     "dev": "npm run start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "npm run build && netlify deploy --prod"
   },
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
@@ -15,18 +16,18 @@
     "@testing-library/user-event": "^12.1.10",
     "antd": "^4.9.4",
     "moment": "^2.29.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "typescript": "^4.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
     "uuid": "^8.3.2",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^1.0.1"
   },
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.53",
-    "@types/react-dom": "^16.9.8",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.6",
     "@types/uuid": "^8.3.0"
   },
@@ -48,6 +49,12 @@
     "url": "https://github.com/SamarthMN/supabase-chat-app/issues"
   },
   "homepage": "https://github.com/SamarthMN/supabase-chat-app#readme",
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
