@@ -1,6 +1,6 @@
 {
-  "short_name": "Chat App",
-  "name": "Chat App Using SupaBase",
+  "short_name": "SupaBase Chat App",
+  "name": "Real Time Chat App",
   "icons": [
     {
       "src": "favicon.ico",

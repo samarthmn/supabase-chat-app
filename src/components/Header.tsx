@@ -31,7 +31,7 @@ const Header = ({ user }: { user: User | null }) => {
         }}
       >
         <div style={{ color: "white", fontSize: "1.5rem", cursor: "pointer" }}>
-          Chat App Using SupaBase
+          Real Time Chat App
           <GithubOutlined
             style={{ cursor: "pointer", padding: "0 .5em" }}
             onClick={() =>
@@ -77,10 +77,12 @@ const Header = ({ user }: { user: User | null }) => {
             </>
           ) : (
             <div
-              style={{ color: "white", fontSize: "1rem", cursor: "pointer" }}
-              onClick={onLogout}
+              style={{ color: "white", fontSize: "1rem", cursor: "default" }}
             >
-              ({user.email}) - Logout
+              ({user.email}) -{" "}
+              <span onClick={onLogout} style={{ cursor: "pointer" }}>
+                Logout
+              </span>
             </div>
           )}
         </div>

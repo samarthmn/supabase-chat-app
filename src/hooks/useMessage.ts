@@ -11,7 +11,7 @@ export type MESSAGE = {
 
 const useMessage = () => {
   const [messages, setMessages] = useState<MESSAGE[]>([]);
-  const [limit, setLimit] = useState(2);
+  const [limit, setLimit] = useState(5);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {

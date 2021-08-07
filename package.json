@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "react-scripts start",
-    "dev": "react-scripts start",
+    "dev": "npm run start",
     "build": "react-scripts build"
   },
   "dependencies": {
@@ -14,6 +14,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "antd": "^4.9.4",
+    "moment": "^2.29.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -36,7 +37,10 @@
   "keywords": [
     "supabase",
     "chat-app",
-    "reactjs"
+    "reactjs",
+    "antd",
+    "ant-design",
+    "TypeScript"
   ],
   "author": "Samarth MN <samarth.m.n@gmail.com>",
   "license": "ISC",
